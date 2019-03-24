@@ -1,4 +1,29 @@
-.btTxt-submit {
-    height: 10px;
-    width: 10px;
+.column {
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 5px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column:nth-child(even) {
+    margin-right: 40px;
+}
+
+.column img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }

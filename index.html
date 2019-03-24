@@ -3,19 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Race to the Iron Throne</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Who will end up on the Iron Throne?</h1>
-    <p>You can help decide!</p>
-    <p>Click each contender and see if they help you match the computer's number</p>
-    <h2>Click Start</h2>
-    <button onclick="myFunction()">Start</button>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center">
+                <strong>Who will end up on the Iron Throne?</strong>
+            </h1>
+        </div>
+
+        <section class="main-section">
+                <p>You can help decide!</p>
+                <p>Click each contender and see if they help you match the computer's number</p>
+                <h4>Click start to begin</h4>
+                <button>Start</button>
+        </section>
+            <div class="row">
+                <div class="column">
+                    <img src="assets/images/jonSnow.jpg" alt="snow">
+                    <button class="btn btn-primary btn-xs">Jon Snow</button>
+                </div>
+                <div class="column">
+                    <img src="assets/images/daenerysTargaryen.jpg" alt="dany">
+                    <button class="btn btn-success btn-xs">Daenerys</button>
+                </div>
+                <div class="column">
+                    <img src="assets/images/cerseiLannister.jpg" alt="cersei">
+                    <button class="btn btn-danger btn-xs">Cersei</button>
+                </div>
+                <div class="column">
+                    <img src="assets/images/Littlefinger.jpg" alt="lil">
+                    <button class="btn btn-warning btn-xs">Littlefinger</button>
+                </div>    
+                    
+                    
+                    
+                </div>
+        
+
+    </div>
     
-    <input type="image" src="assets/images/jonSnow.jpg" name="click" class="btTxt-submit" id="click">
-    <input type="image" src="assets/images/daenerysTargaryen.jpg" name="click" class="btTxt-submit" id="click">
-    <input type="image" src="assets/images/cerseiLannister.jpg" name="click" class="btTxt-submit" id="click">
-    <input type="image" src="assets/images/Littlefinger.jpg" name="click" class="btTxt-submit" id="click">
-    
+        
+
+
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
     
